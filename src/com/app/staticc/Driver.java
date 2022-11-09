@@ -5,6 +5,9 @@ public class Driver {
 	 String name ="GL";
 	
 	public static void main(String[] args) {
+		
+		int j = 100;// local variables
+		
 		System.out.println(Demo.data);
 		Demo demo = new Demo();
 		System.out.println(demo.value);

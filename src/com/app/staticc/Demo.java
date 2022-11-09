@@ -10,6 +10,9 @@ public class Demo {
 	}
 
 	public static void display2() {// belongs to class , no need of object of Demo
+	
+		int j =100;
+		
 		System.out.println("static data:" + data + " Value:?");// +value);
 		// display();
 	}
