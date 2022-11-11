@@ -1,4 +1,4 @@
-package com.app.staticc;
+package com.app.statics;
 
 public class Demo {
 	public static Integer data = 100;// static data member

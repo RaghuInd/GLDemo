@@ -1,4 +1,4 @@
-package com.app.staticc;
+package com.app.statics;
 
 public class Driver {
 
