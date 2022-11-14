@@ -2,6 +2,8 @@ package com.app.collections;
 
 import java.util.Comparator;
 
+// sort by salary
+
 public class EmployeeSalaryComparator implements Comparator<Employee> {
 
 	@Override

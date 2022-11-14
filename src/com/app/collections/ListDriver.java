@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class CollectionsDriver {
+public class ListDriver {
 
 	public static void main(String[] args) {
 		
@@ -143,6 +143,10 @@ public class CollectionsDriver {
 		// sort emp by salary
 		empList.sort(new EmployeeSalaryComparator());
 		System.out.println("emp by salary:"+empList);
+		
+		// sort by name using lambda
+		empList.sort((e1,e2)->e1.getName().compareTo(e2.getName()));
+		System.out.println("Emp list by name:"+empList);
 	}
 
 }
