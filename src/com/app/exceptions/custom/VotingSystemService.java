@@ -1,6 +1,6 @@
 package com.app.exceptions.custom;
 
-public class VotingSystem {
+public class VotingSystemService {
 	
 	public void vote(int age) throws VotingException, VotingTimerException {
 		int timer=10;

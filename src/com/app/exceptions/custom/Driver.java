@@ -12,7 +12,7 @@ public class Driver {
 //		catch (VotingException e) {
 //			System.out.println(e.getMessage());
 //		}
-		VotingSystem votingSystem = new VotingSystem();
+		VotingSystemService votingSystem = new VotingSystemService();
 
 		age = 18;
 		try {
